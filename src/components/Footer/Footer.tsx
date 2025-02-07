@@ -3,10 +3,10 @@ import Icons from "../Icons/Icons.tsx";
 
 function Footer() {
   return (
-    <div id="footer">
+    <footer>
       <Icons />
       <Nav />
-    </div>
+    </footer>
   );
 }
 

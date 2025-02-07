@@ -4,7 +4,7 @@ import Logo from "../../assets/logo.svg";
 
 function Header() {
   return (
-    <div id="header">
+    <header>
       <Link to="/">
         <img
           src={Logo}
@@ -14,7 +14,7 @@ function Header() {
         />
       </Link>
       <Nav />
-    </div>
+    </header>
   );
 }
 
