@@ -1,6 +1,6 @@
 function PrivacyPolicy() {
   return (
-    <div id="privacyPolicy">
+    <div id="privacyPolicy" className="pages">
       <h1>PrivacyPolicy</h1>
     </div>
   );
