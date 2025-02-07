@@ -10,7 +10,7 @@ function Nav() {
         <Link to="/about">About</Link>
       </p>
       <p>
-        <Link to="/location">Location</Link>
+        <Link to="/order">Order</Link>
       </p>
       <p>
         <Link to="/contact">Contact</Link>
