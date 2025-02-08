@@ -21,7 +21,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="Bestellen" element={<Order />} />
           <Route path="Kontakt" element={<Contact />} />
           <Route path="Impressum" element={<LegalNotice />} />
-          <Route path="Datenschutzerklärung" element={<PrivacyPolicy />} />
+          <Route path="Datenschutz" element={<PrivacyPolicy />} />
           <Route path="Admin" element={<Admin />} />
           <Route path="*" element={<NoPage />} />
         </Route>

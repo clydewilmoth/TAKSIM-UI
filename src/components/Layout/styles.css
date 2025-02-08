@@ -1,0 +1,10 @@
+@media screen{
+    #layout{
+        position: relative;
+        min-height: 100vh;
+    }
+
+    #content{
+        padding-bottom: 110px;
+    }
+}

@@ -1,14 +1,26 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Nav() {
+  const path = useLocation().pathname;
+
   return (
-    <nav>
-      <p>
-        <Link to="/Impressum">LegalNotice</Link>
-      </p>
-      <p>
-        <Link to="/Datenschutzerklärung">PrivacyPolicy</Link>
-      </p>
+    <nav id="nav-footer">
+      <span>
+        <Link
+          to="/Impressum"
+          className={path === "/Impressum" ? "nav-current" : "nav-element"}
+        >
+          Impressum
+        </Link>
+      </span>
+      <span>
+        <Link
+          to="/Datenschutz"
+          className={path === "/Datenschutz" ? "nav-current" : "nav-element"}
+        >
+          Datenschutz
+        </Link>
+      </span>
     </nav>
   );
 }
