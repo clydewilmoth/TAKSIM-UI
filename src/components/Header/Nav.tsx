@@ -13,24 +13,24 @@ function Nav() {
       </span>
       <span>
         <Link
-          to="/about"
-          className={path === "/about" ? "nav-current" : "nav-element"}
+          to="/ÜberUns"
+          className={path === "/ÜberUns" ? "nav-current" : "nav-element"}
         >
           Über Uns
         </Link>
       </span>
       <span>
         <Link
-          to="/order"
-          className={path === "/order" ? "nav-current" : "nav-element"}
+          to="/Bestellen"
+          className={path === "/Bestellen" ? "nav-current" : "nav-element"}
         >
           Bestellen
         </Link>
       </span>
       <span>
         <Link
-          to="/contact"
-          className={path === "/contact" ? "nav-current" : "nav-element"}
+          to="/Kontakt"
+          className={path === "/Kontakt" ? "nav-current" : "nav-element"}
         >
           Kontakt
         </Link>

@@ -4,10 +4,10 @@ function Nav() {
   return (
     <nav>
       <p>
-        <Link to="/legalNotice">LegalNotice</Link>
+        <Link to="/Impressum">LegalNotice</Link>
       </p>
       <p>
-        <Link to="/privacyPolicy">PrivacyPolicy</Link>
+        <Link to="/Datenschutzerklärung">PrivacyPolicy</Link>
       </p>
     </nav>
   );

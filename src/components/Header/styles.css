@@ -16,7 +16,6 @@
         font-family: "Playfair Display", serif;
         font-weight: bold;
         font-size: 20px;
-        color: white;
         position: sticky;
         top: 0;
         padding: 20px;
@@ -29,8 +28,9 @@
     }
 
     #nav-header a{
+        color: white;
         transition: all 0.3s ease-in-out;
-        text-decoration: none;
+        text-decoration:none;
     }
 
     #nav-header a:visited{
