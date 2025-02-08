@@ -1,8 +1,4 @@
 @media screen{
-    *{
-        font-family: Georgia, serif;
-    }
-
     #nav-header, #logo-box{
         margin-left: auto;
         margin-right: auto;
@@ -17,18 +13,19 @@
     }
 
     #nav-header{
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
         position: sticky;
         top: 0;
         padding: 20px;
-        background-color: #e34040;
+        background-color: #ee1d23;
     }
 
     #nav-header span{
         margin-left: 2em;
         margin-right: 2em;
-        font-size: 20px;
-        color: white;
-        font-weight: bold;
     }
 
     #nav-header a{
