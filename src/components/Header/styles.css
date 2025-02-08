@@ -1,0 +1,53 @@
+@media screen{
+    *{
+        font-family: Georgia, serif;
+    }
+
+    #nav-header, #logo-box{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #logo{
+        width: 300px;
+        height:auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #nav-header{
+        position: sticky;
+        top: 0;
+        padding: 20px;
+        background-color: #e34040;
+    }
+
+    #nav-header span{
+        margin-left: 2em;
+        margin-right: 2em;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    #nav-header a{
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+    }
+
+    #nav-header a:visited{
+        color: inherit;
+    }
+
+    #nav-header a:hover{
+        color: #E7CD78;
+        text-shadow: 0 0px 20px #E7CD78;
+    }
+
+    #nav-header span .nav-current{
+        color: #E7CD78;
+        text-shadow: 0 0px 20px #E7CD78;
+    }
+
+}
