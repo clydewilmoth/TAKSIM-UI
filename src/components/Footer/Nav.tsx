@@ -7,16 +7,16 @@ function Nav() {
     <nav id="nav-footer">
       <span>
         <Link
-          to="/Impressum"
-          className={path === "/Impressum" ? "nav-current" : "nav-element"}
+          to="/impressum"
+          className={path === "/impressum" ? "nav-current" : "nav-element"}
         >
           Impressum
         </Link>
       </span>
       <span>
         <Link
-          to="/Datenschutz"
-          className={path === "/Datenschutz" ? "nav-current" : "nav-element"}
+          to="/datenschutz"
+          className={path === "/datenschutz" ? "nav-current" : "nav-element"}
         >
           Datenschutz
         </Link>

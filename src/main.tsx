@@ -17,12 +17,12 @@ createRoot(document.getElementById("root")!).render(
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="ÜberUns" element={<About />} />
-          <Route path="Bestellen" element={<Order />} />
-          <Route path="Kontakt" element={<Contact />} />
-          <Route path="Impressum" element={<LegalNotice />} />
-          <Route path="Datenschutz" element={<PrivacyPolicy />} />
-          <Route path="Admin" element={<Admin />} />
+          <Route path="info" element={<About />} />
+          <Route path="bestellen" element={<Order />} />
+          <Route path="kontakt" element={<Contact />} />
+          <Route path="impressum" element={<LegalNotice />} />
+          <Route path="datenschutz" element={<PrivacyPolicy />} />
+          <Route path="admin" element={<Admin />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
