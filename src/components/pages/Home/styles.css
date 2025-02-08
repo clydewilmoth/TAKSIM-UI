@@ -1,0 +1,47 @@
+@media screen{
+    .block{
+        width:80%;
+        background-color: #ee1d23;
+        padding: 50px;
+        margin: 50px;
+        box-shadow: 0 0px 100px #E7CD78;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .block h1{
+        font-family: "Pacifico", serif;
+        font-weight: 300;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .block h2{
+        font-family: "Pacifico", serif;
+        font-weight: 300;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .block p{
+        font-family: "Markazi Text", serif;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 40px;
+    }
+
+    .block iframe{
+        display: block;
+        margin: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 10px solid #E7CD78;
+        border-radius: 10px;
+    }
+
+    #home hr{
+        border: 3px solid #E7CD78;
+        width: 50%;
+    }
+}
