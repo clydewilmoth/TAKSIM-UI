@@ -1,20 +1,40 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import "./styles.css";
 
 function Nav() {
+  const path = useLocation().pathname;
+
   return (
-    <nav>
-      <p>
-        <Link to="/">Home</Link>
-      </p>
-      <p>
-        <Link to="/about">About</Link>
-      </p>
-      <p>
-        <Link to="/order">Order</Link>
-      </p>
-      <p>
-        <Link to="/contact">Contact</Link>
-      </p>
+    <nav id="nav-header">
+      <span>
+        <Link to="/" className={path === "/" ? "nav-current" : "nav-element"}>
+          Startseite
+        </Link>
+      </span>
+      <span>
+        <Link
+          to="/about"
+          className={path === "/about" ? "nav-current" : "nav-element"}
+        >
+          Über Uns
+        </Link>
+      </span>
+      <span>
+        <Link
+          to="/order"
+          className={path === "/order" ? "nav-current" : "nav-element"}
+        >
+          Bestellen
+        </Link>
+      </span>
+      <span>
+        <Link
+          to="/contact"
+          className={path === "/contact" ? "nav-current" : "nav-element"}
+        >
+          Kontakt
+        </Link>
+      </span>
     </nav>
   );
 }

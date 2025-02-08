@@ -1,20 +1,18 @@
 import Nav from "./Nav";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo.svg";
+import "./styles.css";
 
 function Header() {
   return (
-    <header>
-      <Link to="/">
-        <img
-          src={Logo}
-          alt="Taksim"
-          id="logo"
-          style={{ width: 100, height: "auto" }}
-        />
-      </Link>
+    <>
+      <div id="logo-box">
+        <Link to="/">
+          <img src={Logo} alt="Taksim" id="logo" />
+        </Link>
+      </div>
       <Nav />
-    </header>
+    </>
   );
 }
 
