@@ -1,4 +1,8 @@
 @media screen{
+    html{
+        scroll-behavior: smooth;
+    }
+    
     #layout{
         position: relative;
         min-height: 100vh;

@@ -1,34 +1,37 @@
 @media screen{
     .block{
-        width:80%;
+        width:70%;
         background-color: #ee1d23;
         padding: 50px;
         margin: 50px;
-        box-shadow: 0 0px 100px #E7CD78;
         color: white;
         margin-left: auto;
         margin-right: auto;
     }
 
     .block h1{
-        font-family: "Pacifico", serif;
-        font-weight: 300;
-        font-size: 60px;
-        text-align: center;
-    }
-
-    .block h2{
-        font-family: "Pacifico", serif;
+        font-family: "Markazi Text", serif;
         font-weight: 300;
         font-size: 50px;
         text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .block h2{
+        font-family: "Markazi Text", serif;
+        font-weight: 300;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .block p{
         font-family: "Markazi Text", serif;
-        margin-left: 50px;
-        margin-right: 50px;
-        font-size: 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
     }
 
     .block iframe{
@@ -36,12 +39,19 @@
         margin: 60px;
         margin-left: auto;
         margin-right: auto;
-        border: 10px solid #E7CD78;
-        border-radius: 10px;
+        border: none;
     }
 
     #home hr{
-        border: 3px solid #E7CD78;
+        border: 2px solid #E7CD78;
+        border-radius: 100%;
         width: 50%;
+    }
+
+    .block a{
+        color: white;
+    }
+    .block a:visited{
+        color: white;
     }
 }
