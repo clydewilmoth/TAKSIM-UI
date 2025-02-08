@@ -1,0 +1,54 @@
+@media screen{
+    #icons a{
+        margin-left: 0.7em;
+        margin-right: 0.7em;
+    }
+    
+    .icon{
+        width: 40px;
+    }
+
+    #icons{
+        padding: 10px;
+    }
+    
+    #footer-box{
+        width: 100%;
+        height: 110px;
+        position: absolute;
+        bottom: 0;
+        background-color: #ee1d23;
+        text-align: center;
+    }
+    
+    #nav-footer{
+        padding-top: 20px;
+        padding-bottom: 5px;
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+    }
+
+    #nav-footer a{
+        color: white;
+        transition: all 0.3s ease-in-out;
+        text-decoration:none;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+    #nav-footer a:visited{
+        color: white;
+    }
+
+    #nav-footer a:hover{
+        color: #E7CD78;
+        text-shadow: 0 0px 20px #E7CD78;
+    }
+
+    #nav-footer span .nav-current{
+        color: #E7CD78;
+        text-shadow: 0 0px 20px #E7CD78;
+    }
+
+
+}

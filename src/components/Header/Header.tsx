@@ -8,7 +8,7 @@ function Header() {
     <>
       <div id="logo-box">
         <Link to="/">
-          <img src={Logo} alt="Taksim" id="logo" />
+          <img src={Logo} alt="Taksim Baklavacı" id="logo" />
         </Link>
       </div>
       <Nav />

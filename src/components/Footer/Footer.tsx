@@ -1,12 +1,13 @@
 import Nav from "./Nav";
 import Icons from "../Icons/Icons.tsx";
+import "./styles.css";
 
 function Footer() {
   return (
-    <footer>
-      <Icons />
+    <div id="footer-box">
       <Nav />
-    </footer>
+      <Icons />
+    </div>
   );
 }
 
