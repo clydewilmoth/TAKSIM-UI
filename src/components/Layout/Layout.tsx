@@ -11,7 +11,9 @@ function Layout() {
       <div id="content">
         <Outlet />
       </div>
-      <img src={ArrowUp} alt="Pfeil nach oben" id="back-to-top" />
+      <a href="#">
+        <img src={ArrowUp} alt="Pfeil nach oben" id="back-to-top" />
+      </a>
       <Footer />
     </div>
   );
