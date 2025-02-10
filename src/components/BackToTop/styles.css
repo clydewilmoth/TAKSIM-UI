@@ -11,4 +11,8 @@
         outline-offset: -2px;
         background-color: white;
     }
+
+    #back-to-top:hover{
+        cursor: pointer;
+    }
 }
