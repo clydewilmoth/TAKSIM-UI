@@ -1,8 +1,8 @@
 import { Outlet } from "react-router-dom";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import BackToTop from "../BackToTop/BackToTop";
 import "./styles.css";
-import ArrowUp from "../../assets/arrowup.svg";
 
 function Layout() {
   return (
@@ -11,9 +11,7 @@ function Layout() {
       <div id="content">
         <Outlet />
       </div>
-      <a href="#">
-        <img src={ArrowUp} alt="Pfeil nach oben" id="back-to-top" />
-      </a>
+      <BackToTop />
       <Footer />
     </div>
   );
