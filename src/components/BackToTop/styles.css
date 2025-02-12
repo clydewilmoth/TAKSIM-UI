@@ -1,0 +1,19 @@
+@media screen{
+    #back-to-top{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+        z-index: 100;
+        border-radius: 50%;
+        outline: 4px solid #ee1d23;
+        outline-offset: -2px;
+        background-color: white;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #back-to-top:hover{
+        cursor: pointer;
+    }
+}
