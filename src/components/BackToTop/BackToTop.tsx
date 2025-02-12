@@ -31,7 +31,11 @@ function BackToTop() {
       onClick={() => {
         window.scrollTo({ top: 0, behavior: "smooth" });
       }}
-      hidden={hidden}
+      style={
+        hidden === true
+          ? { visibility: "hidden", opacity: 0.0 }
+          : { visibility: "visible", opacity: 1.0 }
+      }
     />
   );
 }
