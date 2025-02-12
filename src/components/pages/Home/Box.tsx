@@ -1,8 +1,10 @@
 function Box(props: any) {
   return (
     <div className="box">
-      <h1>{props.heading}</h1>
-      <hr />
+      <div className="heading-box">
+        <h1>{props.heading}</h1>
+        <hr />
+      </div>
       {props.content}
     </div>
   );

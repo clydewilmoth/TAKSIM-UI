@@ -8,7 +8,7 @@
         margin: 10px auto 40px auto;
         border: 2px solid #E7CD78;
         border-radius: 100%;
-        width: 30%;
+        width: 100%;
     }
     
     #home .box{
@@ -18,7 +18,6 @@
         background-color: #ee1d23;
         padding: 50px 20px 50px 20px;
         margin: 30px auto 30px auto;
-
     }
 
     #home .box h1{
@@ -35,5 +34,10 @@
     }
     #home .box a:visited{
         color: white;
+    }
+
+    #home .box .heading-box{
+        width: fit-content;
+        margin: 0 auto 0 auto;
     }
 }
