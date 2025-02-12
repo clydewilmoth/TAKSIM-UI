@@ -40,4 +40,22 @@
         width: fit-content;
         margin: 0 auto 0 auto;
     }
+
+    #home #opening-times{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 130px 130px;
+    }
+
+    #home #opening-times .day{
+        font-weight: bold;
+        text-align: left;
+        padding: 5px;
+    }
+
+    #home #opening-times .time{
+        text-align: right;
+        padding: 5px;
+    }
+
 }
