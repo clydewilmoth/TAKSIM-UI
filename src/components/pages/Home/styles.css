@@ -11,7 +11,7 @@
         width: 30%;
     }
     
-    #home .block{
+    #home .box{
         color: white;
         text-align: center;
         width:70%;
@@ -21,19 +21,19 @@
 
     }
 
-    #home .block h1{
+    #home .box h1{
         font-size: 2em;
         margin: 0;
     }
 
-    #home .block p{
+    #home .box p{
         margin: 0;
     }
 
-    #home .block a{
+    #home .box a{
         color: white;
     }
-    #home .block a:visited{
+    #home .box a:visited{
         color: white;
     }
 }
