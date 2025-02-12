@@ -1,3 +1,5 @@
+import "./styles.css";
+
 function Box(props: any) {
   return (
     <div className="box">

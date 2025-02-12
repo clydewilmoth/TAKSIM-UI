@@ -1,0 +1,43 @@
+@media screen{
+    .box{
+        font-family: "Markazi Text", serif;
+        font-size: 20px;
+    }
+
+    hr{
+        margin: 10px auto 40px auto;
+        border: 2px solid #E7CD78;
+        border-radius: 100%;
+        width: 100%;
+    }
+    
+    .box{
+        color: white;
+        text-align: center;
+        width:70%;
+        background-color: #ee1d23;
+        padding: 50px 20px 50px 20px;
+        margin: 30px auto 30px auto;
+    }
+
+    .box h1{
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .box p{
+        margin: 0;
+    }
+
+    .box a{
+        color: white;
+    }
+    .box a:visited{
+        color: white;
+    }
+
+    .box .heading-box{
+        width: fit-content;
+        margin: 0 auto 0 auto;
+    }
+}
