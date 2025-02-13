@@ -1,0 +1,14 @@
+@media screen{
+    #icons a{
+        margin-left: 0.7em;
+        margin-right: 0.7em;
+    }
+    
+    .icon{
+        width: 40px;
+    }
+
+    #icons{
+        padding: 10px;
+    }
+}

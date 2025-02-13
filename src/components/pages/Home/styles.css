@@ -15,4 +15,40 @@
         text-align: right;
         padding: 5px;
     }
+
+    #location .cover{
+        position: relative;
+    }
+
+    #location .cover .address{
+        width: fit-content;
+        margin: 0 auto 0 auto;
+        padding: 10px 15px 10px 15px;
+        background-color: white;
+        border-radius: 10px;
+        color: #ee1d23;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    #location .cover .map{
+        position: absolute;
+        top: 0;
+        padding: 5px;
+        border: 8px solid #ee1d23;
+        border-radius: 50%;
+        width: 30px;
+        background-color: white;
+    }
+
+    #location .cover .map:hover{
+        cursor: pointer;
+    }
+
+    #location .gmaps{
+        width: 100%;
+        height: 500px;
+        border: none;
+        border-radius: 10px;
+    }
 }

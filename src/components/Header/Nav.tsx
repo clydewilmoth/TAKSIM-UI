@@ -8,7 +8,7 @@ function Nav() {
     <nav id="nav-header">
       <span>
         <Link to="/" className={path === "/" ? "nav-current" : "nav-element"}>
-          Startseite
+          Start
         </Link>
       </span>
       <span>
@@ -16,7 +16,7 @@ function Nav() {
           to="/info"
           className={path === "/info" ? "nav-current" : "nav-element"}
         >
-          Über Uns
+          Info
         </Link>
       </span>
       <span>

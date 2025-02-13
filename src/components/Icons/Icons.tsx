@@ -1,6 +1,7 @@
 import Phone from "../../assets/phone.svg";
 import Email from "../../assets/email.svg";
 import Instagram from "../../assets/instagram.svg";
+import "./styles.css";
 
 function Icons() {
   return (
